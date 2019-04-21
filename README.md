@@ -16,7 +16,7 @@ How to add files from github, and how to upload files to github
 
 3. cmd line command 'git add <file>'                  (adds a file)
 
-4. cmd line command 'git commit -m <message editor wants to add to version>'
+4. cmd line command 'git commit -m (message editor wants to add to version)'
 
 5. cmd line command 'git push origin master'          (uploads everything to online github repo on master branch)
 
@@ -24,8 +24,8 @@ Branch mechanics
 
 1. cmd line command 'git branch'                      (shows all branches)
 
-2. cmd line command 'git branch <branch name>'        (creates <branch name> branch)
+2. cmd line command 'git branch BRANCH_NAME'          (creates BRANCH_NAME branch)
 
-3. cmd line command 'git checkout <branch name>'      (switches user to <branch name>)
+3. cmd line command 'git checkout BRANCH_NAME'        (switches user to BRANCH_NAME)
 
-4. cmd line command 'git push origin <branch name>'   (uploads everything to online github repo on <branch name> branch)
+4. cmd line command 'git push origin BRANCH_NAME'     (uploads everything to online github repo on BRANCH_NAME branch)
